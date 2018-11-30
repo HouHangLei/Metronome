@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C230C38D158619FEB1D253A /* libPods-HLMetronome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 719240B04D27D2ACC65177EE /* libPods-HLMetronome.a */; };
+		8D0D8FFE21912ECD0035214B /* 节拍器-控制-播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D8FFA21912ECD0035214B /* 节拍器-控制-播放@2x.png */; };
+		8D0D8FFF21912ECD0035214B /* 节拍器-控制-播放点击态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D8FFB21912ECD0035214B /* 节拍器-控制-播放点击态@2x.png */; };
+		8D0D900021912ECD0035214B /* 节拍器-控制-暂停点击态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D8FFC21912ECD0035214B /* 节拍器-控制-暂停点击态@2x.png */; };
+		8D0D900121912ECD0035214B /* 节拍器-控制-暂停@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D8FFD21912ECD0035214B /* 节拍器-控制-暂停@2x.png */; };
+		8D0D900521912F730035214B /* tick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D900321912F720035214B /* tick.wav */; };
+		8D0D900621912F730035214B /* tock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D900421912F720035214B /* tock.wav */; };
+		8D0D900A219135450035214B /* HLMetronomeAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D9009219135450035214B /* HLMetronomeAudioManager.m */; };
+		8D0D900C2191853D0035214B /* 节拍器-下拉列表@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D900B2191853D0035214B /* 节拍器-下拉列表@2x.png */; };
+		8D0D900E2191908F0035214B /* 节拍器-控制-小点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D900D2191908F0035214B /* 节拍器-控制-小点@2x.png */; };
 		8D31AF012190381D00BEAA42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF002190381D00BEAA42 /* AppDelegate.m */; };
-		8D31AF042190381D00BEAA42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF032190381D00BEAA42 /* ViewController.m */; };
 		8D31AF072190381D00BEAA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF052190381D00BEAA42 /* Main.storyboard */; };
 		8D31AF092190381E00BEAA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF082190381E00BEAA42 /* Assets.xcassets */; };
-		8D31AF0C2190381E00BEAA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF0A2190381E00BEAA42 /* LaunchScreen.storyboard */; };
 		8D31AF0F2190381E00BEAA42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF0E2190381E00BEAA42 /* main.m */; };
 		8D31AF192190381E00BEAA42 /* HLMetronomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF182190381E00BEAA42 /* HLMetronomeTests.m */; };
 		8D31AF242190381E00BEAA42 /* HLMetronomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF232190381E00BEAA42 /* HLMetronomeUITests.m */; };
+		8D31AF35219039FE00BEAA42 /* HLMetronomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF34219039FE00BEAA42 /* HLMetronomeViewController.m */; };
+		8D31AF3821904B3300BEAA42 /* HLRhythmSpotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF3721904B3300BEAA42 /* HLRhythmSpotView.m */; };
+		8D31AF4621904D2100BEAA42 /* 节拍器-暂停@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3921904D2100BEAA42 /* 节拍器-暂停@2x.png */; };
+		8D31AF4721904D2100BEAA42 /* 节拍器-播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3A21904D2100BEAA42 /* 节拍器-播放@2x.png */; };
+		8D31AF4821904D2100BEAA42 /* 节拍器-点背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3B21904D2100BEAA42 /* 节拍器-点背景@3x.png */; };
+		8D31AF4921904D2100BEAA42 /* 节拍器-背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3C21904D2100BEAA42 /* 节拍器-背景@2x.png */; };
+		8D31AF4A21904D2100BEAA42 /* 节拍器-播放@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3D21904D2100BEAA42 /* 节拍器-播放@3x.png */; };
+		8D31AF4B21904D2100BEAA42 /* 节拍器-加@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3E21904D2100BEAA42 /* 节拍器-加@3x.png */; };
+		8D31AF4C21904D2100BEAA42 /* 节拍器-圆盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF3F21904D2100BEAA42 /* 节拍器-圆盘@2x.png */; };
+		8D31AF4D21904D2100BEAA42 /* 节拍器-减@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4021904D2100BEAA42 /* 节拍器-减@2x.png */; };
+		8D31AF4E21904D2100BEAA42 /* 节拍器-暂停@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4121904D2100BEAA42 /* 节拍器-暂停@3x.png */; };
+		8D31AF4F21904D2100BEAA42 /* 节拍器-减@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4221904D2100BEAA42 /* 节拍器-减@3x.png */; };
+		8D31AF5021904D2100BEAA42 /* 节拍器-加@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4321904D2100BEAA42 /* 节拍器-加@2x.png */; };
+		8D31AF5121904D2100BEAA42 /* 节拍器-圆盘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4421904D2100BEAA42 /* 节拍器-圆盘@3x.png */; };
+		8D31AF5221904D2100BEAA42 /* 节拍器-点背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF4521904D2100BEAA42 /* 节拍器-点背景@2x.png */; };
+		8D31AF562190531100BEAA42 /* 节拍器-背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF552190531100BEAA42 /* 节拍器-背景@3x.png */; };
+		8D31AF5B2190535F00BEAA42 /* 节拍器-轮播点大@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF572190535F00BEAA42 /* 节拍器-轮播点大@2x.png */; };
+		8D31AF5C2190535F00BEAA42 /* 节拍器-轮播点大-高亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF582190535F00BEAA42 /* 节拍器-轮播点大-高亮@2x.png */; };
+		8D31AF5D2190535F00BEAA42 /* 节拍器-轮播点小-高亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF592190535F00BEAA42 /* 节拍器-轮播点小-高亮@2x.png */; };
+		8D31AF5E2190535F00BEAA42 /* 节拍器-轮播点小@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF5A2190535F00BEAA42 /* 节拍器-轮播点小@2x.png */; };
+		8D31AF602190543E00BEAA42 /* 节拍器-下拉框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D31AF5F2190543E00BEAA42 /* 节拍器-下拉框@2x.png */; };
+		8D31AF632190547300BEAA42 /* HLChoiceRhythmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF622190547300BEAA42 /* HLChoiceRhythmView.m */; };
+		8D31AF662190579C00BEAA42 /* HLChangeSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31AF652190579C00BEAA42 /* HLChangeSpeedView.m */; };
+		8D5372882192D58900025E06 /* 节拍器-下拉收起箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5372862192D58900025E06 /* 节拍器-下拉收起箭头@2x.png */; };
+		8D5372892192D58900025E06 /* 节拍器-下拉箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5372872192D58900025E06 /* 节拍器-下拉箭头@2x.png */; };
+		8DF04AD221905E5B00F5B63F /* HLPlaySwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF04AD121905E5B00F5B63F /* HLPlaySwitchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +69,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		719240B04D27D2ACC65177EE /* libPods-HLMetronome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLMetronome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0D8FFA21912ECD0035214B /* 节拍器-控制-播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-控制-播放@2x.png"; sourceTree = "<group>"; };
+		8D0D8FFB21912ECD0035214B /* 节拍器-控制-播放点击态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-控制-播放点击态@2x.png"; sourceTree = "<group>"; };
+		8D0D8FFC21912ECD0035214B /* 节拍器-控制-暂停点击态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-控制-暂停点击态@2x.png"; sourceTree = "<group>"; };
+		8D0D8FFD21912ECD0035214B /* 节拍器-控制-暂停@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-控制-暂停@2x.png"; sourceTree = "<group>"; };
+		8D0D900321912F720035214B /* tick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tick.wav; sourceTree = "<group>"; };
+		8D0D900421912F720035214B /* tock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tock.wav; sourceTree = "<group>"; };
+		8D0D9008219135450035214B /* HLMetronomeAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMetronomeAudioManager.h; sourceTree = "<group>"; };
+		8D0D9009219135450035214B /* HLMetronomeAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMetronomeAudioManager.m; sourceTree = "<group>"; };
+		8D0D900B2191853D0035214B /* 节拍器-下拉列表@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-下拉列表@2x.png"; sourceTree = "<group>"; };
+		8D0D900D2191908F0035214B /* 节拍器-控制-小点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-控制-小点@2x.png"; sourceTree = "<group>"; };
 		8D31AEFC2190381D00BEAA42 /* HLMetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLMetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D31AEFF2190381D00BEAA42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D31AF002190381D00BEAA42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D31AF022190381D00BEAA42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D31AF032190381D00BEAA42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8D31AF062190381D00BEAA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D31AF082190381E00BEAA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D31AF0B2190381E00BEAA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D31AF0D2190381E00BEAA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D31AF0E2190381E00BEAA42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D31AF142190381E00BEAA42 /* HLMetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMetronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +93,40 @@
 		8D31AF1F2190381E00BEAA42 /* HLMetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMetronomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D31AF232190381E00BEAA42 /* HLMetronomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMetronomeUITests.m; sourceTree = "<group>"; };
 		8D31AF252190381E00BEAA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D31AF33219039FE00BEAA42 /* HLMetronomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMetronomeViewController.h; sourceTree = "<group>"; };
+		8D31AF34219039FE00BEAA42 /* HLMetronomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMetronomeViewController.m; sourceTree = "<group>"; };
+		8D31AF3621904B3300BEAA42 /* HLRhythmSpotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLRhythmSpotView.h; sourceTree = "<group>"; };
+		8D31AF3721904B3300BEAA42 /* HLRhythmSpotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLRhythmSpotView.m; sourceTree = "<group>"; };
+		8D31AF3921904D2100BEAA42 /* 节拍器-暂停@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-暂停@2x.png"; sourceTree = "<group>"; };
+		8D31AF3A21904D2100BEAA42 /* 节拍器-播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-播放@2x.png"; sourceTree = "<group>"; };
+		8D31AF3B21904D2100BEAA42 /* 节拍器-点背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-点背景@3x.png"; sourceTree = "<group>"; };
+		8D31AF3C21904D2100BEAA42 /* 节拍器-背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-背景@2x.png"; sourceTree = "<group>"; };
+		8D31AF3D21904D2100BEAA42 /* 节拍器-播放@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-播放@3x.png"; sourceTree = "<group>"; };
+		8D31AF3E21904D2100BEAA42 /* 节拍器-加@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-加@3x.png"; sourceTree = "<group>"; };
+		8D31AF3F21904D2100BEAA42 /* 节拍器-圆盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-圆盘@2x.png"; sourceTree = "<group>"; };
+		8D31AF4021904D2100BEAA42 /* 节拍器-减@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-减@2x.png"; sourceTree = "<group>"; };
+		8D31AF4121904D2100BEAA42 /* 节拍器-暂停@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-暂停@3x.png"; sourceTree = "<group>"; };
+		8D31AF4221904D2100BEAA42 /* 节拍器-减@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-减@3x.png"; sourceTree = "<group>"; };
+		8D31AF4321904D2100BEAA42 /* 节拍器-加@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-加@2x.png"; sourceTree = "<group>"; };
+		8D31AF4421904D2100BEAA42 /* 节拍器-圆盘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-圆盘@3x.png"; sourceTree = "<group>"; };
+		8D31AF4521904D2100BEAA42 /* 节拍器-点背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-点背景@2x.png"; sourceTree = "<group>"; };
+		8D31AF5421904F9A00BEAA42 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D31AF552190531100BEAA42 /* 节拍器-背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-背景@3x.png"; sourceTree = "<group>"; };
+		8D31AF572190535F00BEAA42 /* 节拍器-轮播点大@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-轮播点大@2x.png"; sourceTree = "<group>"; };
+		8D31AF582190535F00BEAA42 /* 节拍器-轮播点大-高亮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-轮播点大-高亮@2x.png"; sourceTree = "<group>"; };
+		8D31AF592190535F00BEAA42 /* 节拍器-轮播点小-高亮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-轮播点小-高亮@2x.png"; sourceTree = "<group>"; };
+		8D31AF5A2190535F00BEAA42 /* 节拍器-轮播点小@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-轮播点小@2x.png"; sourceTree = "<group>"; };
+		8D31AF5F2190543E00BEAA42 /* 节拍器-下拉框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-下拉框@2x.png"; sourceTree = "<group>"; };
+		8D31AF612190547300BEAA42 /* HLChoiceRhythmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLChoiceRhythmView.h; sourceTree = "<group>"; };
+		8D31AF622190547300BEAA42 /* HLChoiceRhythmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLChoiceRhythmView.m; sourceTree = "<group>"; };
+		8D31AF642190579C00BEAA42 /* HLChangeSpeedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLChangeSpeedView.h; sourceTree = "<group>"; };
+		8D31AF652190579C00BEAA42 /* HLChangeSpeedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLChangeSpeedView.m; sourceTree = "<group>"; };
+		8D5372862192D58900025E06 /* 节拍器-下拉收起箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-下拉收起箭头@2x.png"; sourceTree = "<group>"; };
+		8D5372872192D58900025E06 /* 节拍器-下拉箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "节拍器-下拉箭头@2x.png"; sourceTree = "<group>"; };
+		8DF04AD021905E5B00F5B63F /* HLPlaySwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPlaySwitchView.h; sourceTree = "<group>"; };
+		8DF04AD121905E5B00F5B63F /* HLPlaySwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPlaySwitchView.m; sourceTree = "<group>"; };
+		BBBFF5E62E54E858F6A3F801 /* Pods-HLMetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMetronome.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLMetronome/Pods-HLMetronome.release.xcconfig"; sourceTree = "<group>"; };
+		ECED59AAC5CEC84281F48C47 /* Pods-HLMetronome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMetronome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLMetronome/Pods-HLMetronome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C230C38D158619FEB1D253A /* libPods-HLMetronome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +155,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88EF8F44B42D6D70A6C7C698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECED59AAC5CEC84281F48C47 /* Pods-HLMetronome.debug.xcconfig */,
+				BBBFF5E62E54E858F6A3F801 /* Pods-HLMetronome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D0D900221912F720035214B /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D900321912F720035214B /* tick.wav */,
+				8D0D900421912F720035214B /* tock.wav */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
+		8D0D90072191352A0035214B /* HLMetronomeAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D9008219135450035214B /* HLMetronomeAudioManager.h */,
+				8D0D9009219135450035214B /* HLMetronomeAudioManager.m */,
+			);
+			path = HLMetronomeAudioManager;
+			sourceTree = "<group>";
+		};
 		8D31AEF32190381C00BEAA42 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +189,8 @@
 				8D31AF172190381E00BEAA42 /* HLMetronomeTests */,
 				8D31AF222190381E00BEAA42 /* HLMetronomeUITests */,
 				8D31AEFD2190381D00BEAA42 /* Products */,
+				88EF8F44B42D6D70A6C7C698 /* Pods */,
+				FDC585864000758C1B5781F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +207,14 @@
 		8D31AEFE2190381D00BEAA42 /* HLMetronome */ = {
 			isa = PBXGroup;
 			children = (
+				8D31AF31219038A600BEAA42 /* Metronome */,
 				8D31AEFF2190381D00BEAA42 /* AppDelegate.h */,
 				8D31AF002190381D00BEAA42 /* AppDelegate.m */,
-				8D31AF022190381D00BEAA42 /* ViewController.h */,
-				8D31AF032190381D00BEAA42 /* ViewController.m */,
 				8D31AF052190381D00BEAA42 /* Main.storyboard */,
 				8D31AF082190381E00BEAA42 /* Assets.xcassets */,
-				8D31AF0A2190381E00BEAA42 /* LaunchScreen.storyboard */,
 				8D31AF0D2190381E00BEAA42 /* Info.plist */,
 				8D31AF0E2190381E00BEAA42 /* main.m */,
+				8D31AF5421904F9A00BEAA42 /* PrefixHeader.pch */,
 			);
 			path = HLMetronome;
 			sourceTree = "<group>";
@@ -132,6 +237,68 @@
 			path = HLMetronomeUITests;
 			sourceTree = "<group>";
 		};
+		8D31AF31219038A600BEAA42 /* Metronome */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D90072191352A0035214B /* HLMetronomeAudioManager */,
+				8D0D900221912F720035214B /* audios */,
+				8D31AF32219038A600BEAA42 /* Images */,
+				8D31AF33219039FE00BEAA42 /* HLMetronomeViewController.h */,
+				8D31AF34219039FE00BEAA42 /* HLMetronomeViewController.m */,
+				8D31AF3621904B3300BEAA42 /* HLRhythmSpotView.h */,
+				8D31AF3721904B3300BEAA42 /* HLRhythmSpotView.m */,
+				8D31AF612190547300BEAA42 /* HLChoiceRhythmView.h */,
+				8D31AF622190547300BEAA42 /* HLChoiceRhythmView.m */,
+				8D31AF642190579C00BEAA42 /* HLChangeSpeedView.h */,
+				8D31AF652190579C00BEAA42 /* HLChangeSpeedView.m */,
+				8DF04AD021905E5B00F5B63F /* HLPlaySwitchView.h */,
+				8DF04AD121905E5B00F5B63F /* HLPlaySwitchView.m */,
+			);
+			path = Metronome;
+			sourceTree = "<group>";
+		};
+		8D31AF32219038A600BEAA42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8D5372872192D58900025E06 /* 节拍器-下拉箭头@2x.png */,
+				8D5372862192D58900025E06 /* 节拍器-下拉收起箭头@2x.png */,
+				8D0D900D2191908F0035214B /* 节拍器-控制-小点@2x.png */,
+				8D0D900B2191853D0035214B /* 节拍器-下拉列表@2x.png */,
+				8D0D8FFA21912ECD0035214B /* 节拍器-控制-播放@2x.png */,
+				8D0D8FFB21912ECD0035214B /* 节拍器-控制-播放点击态@2x.png */,
+				8D0D8FFD21912ECD0035214B /* 节拍器-控制-暂停@2x.png */,
+				8D0D8FFC21912ECD0035214B /* 节拍器-控制-暂停点击态@2x.png */,
+				8D31AF5F2190543E00BEAA42 /* 节拍器-下拉框@2x.png */,
+				8D31AF582190535F00BEAA42 /* 节拍器-轮播点大-高亮@2x.png */,
+				8D31AF572190535F00BEAA42 /* 节拍器-轮播点大@2x.png */,
+				8D31AF592190535F00BEAA42 /* 节拍器-轮播点小-高亮@2x.png */,
+				8D31AF5A2190535F00BEAA42 /* 节拍器-轮播点小@2x.png */,
+				8D31AF552190531100BEAA42 /* 节拍器-背景@3x.png */,
+				8D31AF3C21904D2100BEAA42 /* 节拍器-背景@2x.png */,
+				8D31AF3A21904D2100BEAA42 /* 节拍器-播放@2x.png */,
+				8D31AF3D21904D2100BEAA42 /* 节拍器-播放@3x.png */,
+				8D31AF4521904D2100BEAA42 /* 节拍器-点背景@2x.png */,
+				8D31AF3B21904D2100BEAA42 /* 节拍器-点背景@3x.png */,
+				8D31AF4321904D2100BEAA42 /* 节拍器-加@2x.png */,
+				8D31AF3E21904D2100BEAA42 /* 节拍器-加@3x.png */,
+				8D31AF4021904D2100BEAA42 /* 节拍器-减@2x.png */,
+				8D31AF4221904D2100BEAA42 /* 节拍器-减@3x.png */,
+				8D31AF3F21904D2100BEAA42 /* 节拍器-圆盘@2x.png */,
+				8D31AF4421904D2100BEAA42 /* 节拍器-圆盘@3x.png */,
+				8D31AF3921904D2100BEAA42 /* 节拍器-暂停@2x.png */,
+				8D31AF4121904D2100BEAA42 /* 节拍器-暂停@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FDC585864000758C1B5781F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719240B04D27D2ACC65177EE /* libPods-HLMetronome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D31AF282190381E00BEAA42 /* Build configuration list for PBXNativeTarget "HLMetronome" */;
 			buildPhases = (
+				97F3AA0784C80AB7B9F508A8 /* [CP] Check Pods Manifest.lock */,
 				8D31AEF82190381D00BEAA42 /* Sources */,
 				8D31AEF92190381D00BEAA42 /* Frameworks */,
 				8D31AEFA2190381D00BEAA42 /* Resources */,
@@ -235,9 +403,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D31AF0C2190381E00BEAA42 /* LaunchScreen.storyboard in Resources */,
+				8D31AF4921904D2100BEAA42 /* 节拍器-背景@2x.png in Resources */,
+				8D31AF4621904D2100BEAA42 /* 节拍器-暂停@2x.png in Resources */,
+				8D31AF4A21904D2100BEAA42 /* 节拍器-播放@3x.png in Resources */,
+				8D0D900121912ECD0035214B /* 节拍器-控制-暂停@2x.png in Resources */,
+				8D31AF5B2190535F00BEAA42 /* 节拍器-轮播点大@2x.png in Resources */,
+				8D0D900E2191908F0035214B /* 节拍器-控制-小点@2x.png in Resources */,
+				8D31AF5221904D2100BEAA42 /* 节拍器-点背景@2x.png in Resources */,
+				8D31AF562190531100BEAA42 /* 节拍器-背景@3x.png in Resources */,
+				8D0D8FFF21912ECD0035214B /* 节拍器-控制-播放点击态@2x.png in Resources */,
+				8D31AF5021904D2100BEAA42 /* 节拍器-加@2x.png in Resources */,
+				8D0D8FFE21912ECD0035214B /* 节拍器-控制-播放@2x.png in Resources */,
 				8D31AF092190381E00BEAA42 /* Assets.xcassets in Resources */,
+				8D31AF5D2190535F00BEAA42 /* 节拍器-轮播点小-高亮@2x.png in Resources */,
+				8D31AF4721904D2100BEAA42 /* 节拍器-播放@2x.png in Resources */,
+				8D31AF4F21904D2100BEAA42 /* 节拍器-减@3x.png in Resources */,
+				8D31AF5E2190535F00BEAA42 /* 节拍器-轮播点小@2x.png in Resources */,
+				8D0D900C2191853D0035214B /* 节拍器-下拉列表@2x.png in Resources */,
+				8D31AF4D21904D2100BEAA42 /* 节拍器-减@2x.png in Resources */,
+				8D31AF4821904D2100BEAA42 /* 节拍器-点背景@3x.png in Resources */,
 				8D31AF072190381D00BEAA42 /* Main.storyboard in Resources */,
+				8D5372882192D58900025E06 /* 节拍器-下拉收起箭头@2x.png in Resources */,
+				8D31AF5C2190535F00BEAA42 /* 节拍器-轮播点大-高亮@2x.png in Resources */,
+				8D31AF4E21904D2100BEAA42 /* 节拍器-暂停@3x.png in Resources */,
+				8D31AF4C21904D2100BEAA42 /* 节拍器-圆盘@2x.png in Resources */,
+				8D5372892192D58900025E06 /* 节拍器-下拉箭头@2x.png in Resources */,
+				8D31AF5121904D2100BEAA42 /* 节拍器-圆盘@3x.png in Resources */,
+				8D31AF4B21904D2100BEAA42 /* 节拍器-加@3x.png in Resources */,
+				8D0D900521912F730035214B /* tick.wav in Resources */,
+				8D0D900621912F730035214B /* tock.wav in Resources */,
+				8D31AF602190543E00BEAA42 /* 节拍器-下拉框@2x.png in Resources */,
+				8D0D900021912ECD0035214B /* 节拍器-控制-暂停点击态@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +453,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97F3AA0784C80AB7B9F508A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLMetronome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D31AEF82190381D00BEAA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D31AF042190381D00BEAA42 /* ViewController.m in Sources */,
+				8D31AF662190579C00BEAA42 /* HLChangeSpeedView.m in Sources */,
 				8D31AF0F2190381E00BEAA42 /* main.m in Sources */,
 				8D31AF012190381D00BEAA42 /* AppDelegate.m in Sources */,
+				8D0D900A219135450035214B /* HLMetronomeAudioManager.m in Sources */,
+				8DF04AD221905E5B00F5B63F /* HLPlaySwitchView.m in Sources */,
+				8D31AF632190547300BEAA42 /* HLChoiceRhythmView.m in Sources */,
+				8D31AF3821904B3300BEAA42 /* HLRhythmSpotView.m in Sources */,
+				8D31AF35219039FE00BEAA42 /* HLMetronomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +528,6 @@
 				8D31AF062190381D00BEAA42 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8D31AF0A2190381E00BEAA42 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D31AF0B2190381E00BEAA42 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,33 +647,43 @@
 		};
 		8D31AF292190381E00BEAA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECED59AAC5CEC84281F48C47 /* Pods-HLMetronome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SL35U625Y;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLMetronome/PrefixHeader.pch";
 				INFOPLIST_FILE = HLMetronome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.HL.HLMetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D31AF2A2190381E00BEAA42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBFF5E62E54E858F6A3F801 /* Pods-HLMetronome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SL35U625Y;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLMetronome/PrefixHeader.pch";
 				INFOPLIST_FILE = HLMetronome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.HL.HLMetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

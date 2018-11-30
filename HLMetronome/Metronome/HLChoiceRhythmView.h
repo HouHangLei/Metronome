@@ -7,10 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLMetronomeAudioManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
+// 代理
+@protocol HLChoiceRhythmViewDelegate <NSObject>
+
+/** 改变节拍 */
+- (void)hlChangeRhythm:(HLMetronomeType)metronomeStat;
+
+@end
+
+/** 调节节拍View */
 @interface HLChoiceRhythmView : UIView
+
+- (void)creatUI;
+
+/** 代理 */
+@property (nonatomic, weak) id <HLChoiceRhythmViewDelegate> delegate;
 
 @end
 
